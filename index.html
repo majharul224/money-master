@@ -27,23 +27,23 @@
            <div class="col-md-6">
             <div>
                 <h2 class="text-center">Income</h2>
-    <p id="income-input" class="ms-5 fs-3">Income: <input type="text"></p>
+    <p id="income-input" class="ms-5 fs-3">Income: <input type="number"></p>
                 </div>
             <div>
                 <h2 class="text-center">Expenses</h2>
-    <p class="ms-5 fs-3">Food: <input type="text"></p>
-    <p class="ms-5 fs-3">Rent: <input type="text"></p>
-    <p class="ms-5 fs-3">Clothes: <input type="text"></p>
+    <p id="food-input" class="ms-5 fs-3">Food: <input type="number"></p>
+    <p id="rent-input" class="ms-5 fs-3">Rent: <input type="number"></p>
+    <p id="clothes-input" class="ms-5 fs-3">Clothes: <input type="number"></p>
                 </div>
                 <div class="col text-center">
                     <button id="calculate" class="fs-4">Calculate</button>
-                    <h2>Total Expenses: <span>00</span></h2>
-                    <h2>Balance: <span>00</span></h2>
+                    <h2>Total Expenses: <span id="totoal-exprese">00</span></h2>
+                    <h2>Balance: <span id="balance">00</span></h2>
                 </div>
                 <div>
-                    <p class="ms-5 fs-3">Save: <input type="text"> % <button>Save</button></p>
-                    <h2 class="text-center">Saving Amount: <span>00</span></h2>
-                    <h2 class="text-center">Remaining Balance: <span>00</span></h2>
+                    <p class="ms-5 fs-3">Save: <input type="number" id="Percentage"> % <button id="save-money">Save</button></p>
+                    <h2 class="text-center">Saving Amount: <span id="save-amount">00</span></h2>
+                    <h2 id="rem-balance" class="text-center">Remaining Balance: <span id="latest-money">00</span></h2>
                 </div>
            </div>
         </div>
