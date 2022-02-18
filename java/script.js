@@ -3,7 +3,7 @@
 
 
 const btnCalculate = document.getElementById('calculate');
-const income = document.getElementById('income-input');
+const income = document.getElementById('input-income');
 const food = document.getElementById('food-input');
 const rent = document.getElementById('rent-input');
 const clothes = document.getElementById('clothes-input');
